@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+   <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+      <script src="js/jquery.js"></script>
+    
+    <script src="js/bootstrap.min.js"></script>
+<script>
+
+  var config = {
+    apiKey: "AIzaSyC8CGrogNBFhahZYsp81jEbDBqfkuYbh3A",
+    authDomain: "fir-tubes.firebaseapp.com",
+    databaseURL: "https://fir-tubes.firebaseio.com",
+    projectId: "fir-tubes",
+    storageBucket: "fir-tubes.appspot.com",
+    messagingSenderId: "932596889478"
+  };
+  firebase.initializeApp(config);
+</script>
+
+  <script type="text/javascript" src="js/highstock.js"></script>
+  <script type="text/javascript" src="js/exporting.js"></script>
+
+
+ <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand">Monitoring Cuaca</a>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="user.php">Home</a>
+          </li>
+          <li class="nav-item">
+
+          </li>
+        </ul>
+        <form class="form-inline mt-2 mt-md-0">
+          
+          <a class="nav-link" href="admin.php">Admin</a>
+        </form>
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+  <div class="container">
+    <h1 class="text-center"> <b> MONITORING KECEPATAN ANGIN</b></h1>
+    <h2 class="text-center">Grafik Monitoring Kecepatan Angin</h2>
+  </div>
+</div>
+
+  <section class="graph" id="graph">
+  <div class="container">
+    <div class="row">
+    <div class="col-md-12">
+      <h1 class="text-center">GRAPH</h1>
+      <hr>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+
+
+  <div id="all">
+    <div id="content"></div>
+  </div>
+  <script type="text/javascript" src="grafikangin.js"></script>
+</div>
+</div>  
+</div> 
+</section>
+</body>
+</html>

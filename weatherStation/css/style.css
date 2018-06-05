@@ -1,0 +1,36 @@
+#all {
+	width:100%;
+	margin:0px auto;
+
+}
+#content {
+	width:100%;
+	height:100%;
+	margin:0px auto;
+	align-items:center;
+	padding:70px 0;
+}
+hr{
+	width: 250px;
+	border-top: 3px solid #999;
+}
+section{
+	min-height: 600px;
+}
+.digital{
+	padding-top: 50px;	
+}
+.graph{
+	padding-top: 50px;
+	background-color: #eee;
+}
+.digital img{
+	height: 200px;
+	margin-top: 100px;
+}
+.temp-panel{
+	margin-top: 100px;
+}
+button{
+	margin-top: 100px;
+}
